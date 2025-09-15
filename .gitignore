@@ -1,0 +1,172 @@
+# ================================
+# 通用操作系统文件
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# 编译器/构建系统输出
+# ================================
+# 通用构建目录
+build/
+dist/
+bin/
+obj/
+out/
+target/
+
+# 通用编译输出
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.class
+*.jar
+*.war
+*.pyc
+*.pyo
+__pycache__/
+
+# ================================
+# C++ 特定
+# ================================
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+ipch/
+x64/
+x86/
+Debug/
+Release/
+
+# ================================
+# Python 特定
+# ================================
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 缓存和测试输出
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 打包和发布
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ================================
+# Java 特定
+# ================================
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+
+# ================================
+# C# 特定
+# ================================
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Unity
+Library/
+Temp/
+Obj/
+UnityGenerated/
+
+# ================================
+# IDE 和编辑器配置
+# ================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# JetBrains Rider
+.idea/
+*.sln.DotSettings.user
+
+# ================================
+# 日志和临时文件
+# ================================
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ================================
+# 依赖和包管理
+# ================================
+# Python
+__pypackages__/
+
+# Node.js (如果前端使用)
+node_modules/
+package-lock.json
+
+# ================================
+# 敏感数据和环境变量
+# ================================
+.env
+.env.local
+.env.development
+.env.production
+secrets.ini
+credentials.json
+*.key
+*.pem
+*.cert
+
+# ================================
+# 文档生成
+# ================================
+docs/_build/
+docs/_out/
