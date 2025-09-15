@@ -1,0 +1,11 @@
+{
+    "username": "张三",
+    "email": "zhangsan@example.com",
+    "registration_time": "2025-09-11 01:08:51",
+    "permissions": [
+        "read",
+        "write",
+        "comment",
+        "share"
+    ]
+}
